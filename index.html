@@ -21,8 +21,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<title>ЯTunes</title>
-
+	<title>iTunes</title>
+	<script src="scripts/index.js" type='module'></script>
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="stylesheet" href="styles/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/style.min.css">
@@ -31,26 +31,27 @@
 <body>
 
 	<a href="index.html">
-		<h1 class="header"><span class="red-text">Я</span>Tunes</h1>
+		<h1 class="header"><span class="red-text">i</span>Tunes</h1>
 	</a>
 
 	<main>
 		<section class="player">
-			<div class="player-btn player-video">Видео</div>
+			<div class="player-btn player-video">Video</div>
 
-			<div class="player-btn player-audio">Музыка</div>
+			<div class="player-btn player-audio">Music</div>
 
-			<div class="player-btn player-radio">Радио</div>
+			<div class="player-btn player-radio">Radio</div>
 		</section>
 
 		<div class="temp">
 			<h2>
-				Медиа портал <span class="red-text">Я</span>Tunes
+				Download the latest version from the Microsoft Store. <span class="red-text">i</span>Tunes
 			</h2>
 		</div>
 
 		<article class="player-block video">
 			<div class="container">
+				<!-- <input type="range"> -->
 				<div class="video-container">
 					<video src="video/rocket_launching.mp4" class="video-player" poster="video/play.svg"></video>
 					<nav class="video-navigation">
@@ -59,6 +60,7 @@
 						<p class="video-time video-time__passed">00:00</p>
 						<input type="range" class="video-progress" min="0" max="100" step="0.1" value="0">
 						<p class="video-time video-time__total">00:00</p>
+					
 					</nav>
 				</div>
 			</div>
