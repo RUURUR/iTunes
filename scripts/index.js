@@ -19,6 +19,6 @@ playerBtn.forEach((btn, i)=>{
     })
 })
 
-// radioPlayerInit()
+ radioPlayerInit()
 videoPlayerInit()
 // musicPlayerInit()

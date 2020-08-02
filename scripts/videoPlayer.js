@@ -44,6 +44,8 @@ videoButtonPlay.addEventListener('click', togglePlay);
 videoPlayer.addEventListener('play', toggleIcon);
 videoPlayer.addEventListener('pause', toggleIcon);
 videoButtonStop.addEventListener('click', stopPlay)
+
+
 videoPlayer.addEventListener('timeupdate', ()=>{
     const currentTime = videoPlayer.currentTime;
     const duration = videoPlayer.duration;
